@@ -1,0 +1,82 @@
+.navbar {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.navbar .icon {
+    width: 112px;
+    height: 46px;
+    justify-self: flex-start;
+}
+
+.navbar ul {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    width: 499px;
+    justify-content: space-between;
+}  
+
+.navbar ul :hover {
+    color:#4540DB;
+    transition: all .6s;
+} 
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.registration {
+    display: flex;
+    width: 257px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.registration a.link  {
+    color:#000;
+}
+
+.registration a.link:hover {
+    color: #4540DB;
+}
+
+a.btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    height: 50px;
+    background: #4540DB;
+    padding: 3px 24px;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 50px;
+}
+
+a.btn:hover {
+    background: #5953f0;
+}
+

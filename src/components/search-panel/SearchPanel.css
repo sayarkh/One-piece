@@ -1,0 +1,108 @@
+.search-panel .wrapper {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 86px;
+    width: 880px;
+    height: 60px;
+    box-shadow: 0px 1px 22px 1px rgba(69, 64, 219, 0.04);
+    outline-width: 0px;
+    border-radius: 20px;
+}
+
+.search-panel .wrapper:hover {
+    transition: all 0.9s;
+    box-shadow: 0px 0px 17px 3px rgba(34, 60, 80, 0.2);
+}
+
+.wrapper .search-title {
+    position: relative;
+}
+.wrapper .search-title-input {
+    margin: 0;
+    width: 323px;
+    padding: 0 74px;
+    height: 60px;
+    border-right: none;
+    border-top-left-radius: 20px;  
+    border-bottom-left-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    box-shadow: #4540DB0A;
+    border: none;
+}
+
+.location {
+    position: relative;
+}
+
+.wrapper .location-input {
+    margin: 0;
+    width: 557px;
+    padding: 0 160px 0 81px;
+    height: 60px;
+    border-top-right-radius: 20px;  
+    border-bottom-right-radius: 20px;
+    border-left: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+}
+
+.wrapper .location-input:focus, .wrapper .search-title-input:focus {
+    outline: 0;
+}
+
+.wrapper .location-icon {
+    width: 28px;
+    height: 35px;
+    position: absolute;
+    left: 355px;
+    top: 14px;
+}
+
+.search-title {
+    position: relative;
+}
+
+.wrapper .submit-btn {
+    position: absolute;
+    width: 119px;
+    height: 50px;
+    border-radius: 20px;
+    right: 21px;
+    top: 5px;
+    background: #4540DB;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.wrapper .submit-btn:hover {
+    background: #5953f0;
+}
+
+.wrapper .title-icon {
+    position: absolute;
+    left: 18px;
+    width: 35px;
+    height: 35px;
+    top: 14px;
+
+}
+
+.wrapper .divider {
+    height: 50px;
+    width: 2px;
+    background: #878787;
+}
+
+
