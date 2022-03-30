@@ -1,0 +1,88 @@
+.recom-item .recom-card {
+    width: 236px;
+    height: 265px;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 19px 12px 24px 20px;
+    margin-bottom: 50px;
+}
+.recom-item .recom-card:hover {
+    transition: all 0.9s;
+    box-shadow: 0px 0px 17px 3px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+}
+
+.recom-item .recom-header .recom-icon {
+    width: 33px;
+    height: 33px;
+    margin: 0;
+}
+
+.recom-item .recom-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.recom-item .recom-header .recom-subtitle {
+    font-size: 12px;
+}
+
+.recom-item .recom-header .header-info {
+    margin-left: 15px;
+}
+
+.recom-item .recom-title {
+    margin-top: 20px;
+    font-size: 25px;
+}
+.recom-item .recom-type {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.recom-item .recom-descr {
+    margin-top: 20px;
+    margin-left: 0;
+    color:#585858;
+    font-size: 12px;
+    line-height: 14px;
+    width: 225px;
+}
+
+.recom-item .recom-footer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recom-item .recom-footer .recom-price {
+    margin-left: 0;
+    font-size: 18px;
+}
+
+.recom-item .recom-footer .recom-btn {
+    background: #F9F9FF;
+    border-radius: 10px;
+    border: none;
+    width: 102px;
+    height: 39px;
+    font-size: 18px;
+    color: #4943DA;
+}
+
+.recom-item .recom-footer .recom-btn:hover {
+    transition: all .9s;
+    background: #4943DA;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+

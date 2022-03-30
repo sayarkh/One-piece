@@ -1,0 +1,26 @@
+.category-items {
+    margin-top: 112px;
+    max-width: 1440px;
+    background: #F6F7FC;
+    padding: 63px 0 106px 0;
+}
+
+.category-items .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.category-items .title span {
+    color: #4943DA;
+}
+
+.category-items .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
